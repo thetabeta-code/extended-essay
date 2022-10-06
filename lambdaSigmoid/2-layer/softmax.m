@@ -1,0 +1,1 @@
+function g = softmax(x)  g = exp(x' - max(x')) ./ sum(exp(x' - max(x')));  g = g';endfunction
